@@ -1,0 +1,14 @@
+name: DA Auction Test
+version: 1
+author: Gustro
+main: com.theemp.auctiontest.Main
+commands:
+  auction:
+    description: Used to create an auction expects an item name then a price and the time for the auction to last in seconds.
+    usage: /auction [item] [price] [seconds]
+  bid:
+      description: Used to bid on an auction, expects a auction ID and price to bid.
+      usage: /bid [auctionID] [price]
+  auctionlist:
+      description: Used to list current auctions in the server. If an auction ID is suplied then you will see a list of all the bids on that auction.
+      usage: /auctionlist [auctionID]
